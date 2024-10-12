@@ -10,7 +10,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class utils {
-
     public static void captureScreenshot(WebDriver driver, String screenshotName) {
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
